@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: Registration_Login_App
+  datasource:
+    url: jdbc:mysql://localhost:3306/registration
+    password: Kunal@123
+    username: root 
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  
+  main:
+    allow-circular-references: true
+server:
+  port:  9090
